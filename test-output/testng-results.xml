@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="169879" started-at="2017-11-14T03:26:02Z" finished-at="2017-11-14T03:28:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="169879" started-at="2017-11-14T03:26:02Z" finished-at="2017-11-14T03:28:52Z">
+      <class name="citysearch.City_Search">
+        <test-method status="PASS" signature="testcase01()[pri:0, instance:citysearch.City_Search@1d3411d]" name="testcase01" duration-ms="169867" started-at="2017-11-14T08:56:02Z" finished-at="2017-11-14T08:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase01 -->
+      </class> <!-- citysearch.City_Search -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

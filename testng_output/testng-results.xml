@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Google]]>
+    </line>
+    <line>
+      <![CDATA[https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=8xAJWvTPHYLz8AfM4YzgCw&gws_rd=ssl]]>
+    </line>
+  </reporter-output>
+  <suite name="CITY500" duration-ms="35358" started-at="2017-11-13T03:26:23Z" finished-at="2017-11-13T03:26:58Z">
+    <groups>
+    </groups>
+    <test name="Search500City" duration-ms="21570" started-at="2017-11-13T03:26:23Z" finished-at="2017-11-13T03:26:44Z">
+      <class name="citysearch.TC01">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:citysearch.TC01@18ef96]" name="launchBrowser" is-config="true" duration-ms="20169" started-at="2017-11-13T08:56:23Z" finished-at="2017-11-13T08:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testCase01()[pri:0, instance:citysearch.TC01@18ef96]" name="testCase01" duration-ms="6" started-at="2017-11-13T08:56:43Z" finished-at="2017-11-13T08:56:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Google]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:citysearch.TC01@18ef96]" name="quitBrowser" is-config="true" duration-ms="1385" started-at="2017-11-13T08:56:43Z" finished-at="2017-11-13T08:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- citysearch.TC01 -->
+    </test> <!-- Search500City -->
+    <test name="Gmail Test" duration-ms="13521" started-at="2017-11-13T03:26:45Z" finished-at="2017-11-13T03:26:58Z">
+      <class name="citysearch.TC02">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:citysearch.TC02@1412c2f]" name="launchBrowser" is-config="true" duration-ms="12829" started-at="2017-11-13T08:56:45Z" finished-at="2017-11-13T08:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testCase01()[pri:0, instance:citysearch.TC02@1412c2f]" name="testCase01" duration-ms="6" started-at="2017-11-13T08:56:57Z" finished-at="2017-11-13T08:56:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=8xAJWvTPHYLz8AfM4YzgCw&gws_rd=ssl]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:citysearch.TC02@1412c2f]" name="quitBrowser" is-config="true" duration-ms="684" started-at="2017-11-13T08:56:57Z" finished-at="2017-11-13T08:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- citysearch.TC02 -->
+    </test> <!-- Gmail Test -->
+  </suite> <!-- CITY500 -->
+</testng-results>

@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="CITY500" verbose="1" >
+    <parameter name="browser" value="firefox"></parameter>
+  
+  <test name="Search500City" >
+    <classes>
+       <class name="citysearch.TC01" />
+    </classes>
+  </test>
+ 
+ <test name="Gmail Test" >
+    <classes>
+       <class name="citysearch.TC02" />
+    </classes>
+  </test>
+  
+  <!--  <test name="Cricinfo Test" >
+    <classes>
+       <class name="testngsuite.TC03" />
+    </classes>
+  </test> -->
+  
+</suite>
